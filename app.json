@@ -5,7 +5,7 @@
   "keywords": ["vault"],
   "buildpacks": [
     {
-      "url": "https://github.com/eshishkin/heroku-buildpack-vault.git"
+      "url": "https://github.com/apinutto/heroku-buildpack-vault.git"
     },
     {
       "url": "https://github.com/pallavkothari/heroku-buildpack-nginx"
@@ -20,7 +20,7 @@
     "ENABLE_UI": {
       "description": "Should Vault UI be enabled",
       "required": true,
-      "value": "false"
+      "value": "true"
     }
   },
   "addons": [
